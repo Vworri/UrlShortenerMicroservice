@@ -13,7 +13,6 @@ var mongoose = require('mongoose');
 mongoose.Promise = require('bluebird');
 var request = require('request');
 mongoose.connect('mongodb://localhost:27017/microservice');
-var validUrl = require('valid-url');
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
